@@ -21,7 +21,7 @@ public class Ejemplo041 {
         //int[] arreglo1 = new int[5];
         int[] arreglo1 = {1000, 1, 2, 2000, 300};
         String cadena = "";
-        int suma=0;
+        int suma = 0;
 
         // System.out.println(arreglo1.length);
         //arreglo1[2] = 1000;
@@ -30,11 +30,11 @@ public class Ejemplo041 {
             // elemento me va a dar el numero de elementos que tiene ese arreglo
             cadena = String.format("%sSubíndice o Índice %d, con valor %d\n",
                     cadena, i, arreglo1[i]);
-            suma=suma+arreglo1[i];
+            suma = suma + arreglo1[i];
         }
-        cadena=cadena.toUpperCase();
-        System.out.printf("%s\nLa suma es: %d", cadena,suma);
-
+        cadena = cadena.toUpperCase();
+        System.out.printf("%s\nLa suma es: %d", cadena, suma);
+         // as
     }
 
 }

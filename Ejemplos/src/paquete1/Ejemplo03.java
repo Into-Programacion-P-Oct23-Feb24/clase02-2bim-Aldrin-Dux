@@ -18,14 +18,14 @@ public class Ejemplo03 {
         // Declarar y generar arreglos en Java
 
         // arreglo de tipo entero
-        int[] arreglo1 = new int[5];
+        int[] arreglo1 = new int[5]; //mas rapido con valores por defecto
         
         // arreglo de tipo entero
-        int[] arreglo2;
+        int[] arreglo2; // ;lo mismo pero mas lento con valores por defecto
         arreglo2 = new int[5];
         
         // arreglo de tipo entero
-        int[] arreglo3 = {5, 10, 15, 20, 25}; // sin new
+        int[] arreglo3 = {5, 10, 15, 20, 25}; // sin new //aqui damos valores
         
         // arreglo de doubles - 3 elementos
         double[] arreglo4 = {5.1, 10.2, 15.2}; // sin new
